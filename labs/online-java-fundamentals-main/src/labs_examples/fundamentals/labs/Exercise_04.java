@@ -13,6 +13,12 @@ public class Exercise_04 {
     public static void main(String[] args) {
 
         int i = 1;
+        double doubleNum = 3.21254564516145;
+        float floatNum = 1.556454f;
+        char charNum = 'a';
+        byte byteNum = 100;
+        short shortNum = 500_0;
+        long longNum = 122222222222222222L;
         System.out.println("int i is: " + i);
 
         // write your code below
