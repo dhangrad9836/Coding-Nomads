@@ -26,6 +26,7 @@ public class Exercise_05 {
         // for example, replace(), substring(), contains(), indexOf() etc
         String adjusted = str.replace('l', 'm');
         System.out.println(adjusted);
+        //update comment
     }
 
 
