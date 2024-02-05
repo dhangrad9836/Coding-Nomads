@@ -23,7 +23,12 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int num1 = 10;
+        double num2 = num1;
+        double num3 = 10.5;
+        int newNUm = (int)num3;
+
+        System.out.println(newNUm);
 
     }
 }

@@ -23,7 +23,14 @@ public class Exercise_07 {
         // assign input to variable as int
         int days = scanner.nextInt();
 
-        // write completed code here
+        //one day has 24 hours
+        //one hour has 60 minutes
+        //one minute has 60 seconds
+        int secondsInADay = 24*60*60;
+        int total = days * secondsInADay;
+        //System.out.println(60*60*24);
+        System.out.println("The total seconds in " + days + " is:"
+        + total);
 
     }
 }
